@@ -1,6 +1,8 @@
+
 .Imagem{
-    width: 80px!important;
-    height: 60px!important;
+    border-top: 10px groove rgb(73, 5, 82);
+    width: 170px!important;
+    height: 150px!important;
 }
 .div-todasimagens{
     display: grid;
@@ -11,7 +13,13 @@
 }
 .titulo{
     font-size: 10px;
-    color: rgb(146, 83, 204);
+    color: rgb(26, 6, 44);
     margin-bottom: 7px;
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .gridimg{
+       background-color: rgb(210, 253, 19);
+    }
+   }
